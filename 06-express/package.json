@@ -1,0 +1,19 @@
+{
+  "name": "subscriber-api",
+  "version": "1.0.0",
+  "description": "Subscriber REST API",
+  "config" :{
+    "host" : "localhost",
+    "port" : 8080
+  },
+  "main": "index.js",
+  "scripts": {
+    "start" : "node ./app/index"
+  },
+  "author": "Fernando",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
